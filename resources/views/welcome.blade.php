@@ -3,24 +3,11 @@
 
 <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3 navbar-transparent mt-4">
     <div class="container">
-      <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-white" href="../../pages/dashboards/default.html">
+      <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-white" href="#">
         BUSCO-GURU
       </a>
-      <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon mt-2">
-          <span class="navbar-toggler-bar bar1"></span>
-          <span class="navbar-toggler-bar bar2"></span>
-          <span class="navbar-toggler-bar bar3"></span>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0 ps ps--active-y" id="navigation">
-        
-        <ul class="navbar-nav d-lg-block d-none">
-          <li class="nav-item">
-            <a href="{{route('login')}}" class="btn btn-sm  bg-white  btn-round mb-0 me-1" >Iniciar Sesion</a>
-          </li>
-        </ul>
-      <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; height: 39px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 3px;"></div></div></div>
+    
+   
     </div>
   </nav>
     <!-- End Navbar -->
@@ -30,7 +17,7 @@
         <div class="row">
           <div class="col-md-6 mx-auto text-center">
             <h3 class="text-white">Que hacemos?</h3>
-            <p class="text-white">Todos tus pedidos con asistencia inmediata y seguridad!</p>
+            <p class="text-white">Gestionamos el envio de productos internacionales desde cualquier pais hasta la puerta de tu casa!</p>
           </div>
         </div>
         <div class="row">
@@ -38,8 +25,8 @@
             <div class="nav-wrapper mt-5 position-relative z-index-2">
               <ul class="nav nav-pills nav-fill p-1 flex-row" id="tabs-pricing" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link mb-0 active" id="tabs-iconpricing-tab-1" data-bs-toggle="tab" href="#monthly" role="tab" aria-controls="monthly" aria-selected="true">
-                    Del exterior a tu puerta!
+                  <a class="nav-link mb-0 active"  href="{{route('login')}}">
+                   INICIAR SESION
                   </a>
                 </li>
                 
@@ -49,209 +36,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-n8">
-      <div class="container">
-        <div class="tab-content tab-space">
-          <div class="tab-pane active" id="monthly">
-            <div class="row">
-              <div class="col-lg-4 mb-lg-0 mb-4">
-                <div class="card">
-                  <div class="card-header text-center pt-4 pb-3">
-                    <span class="badge rounded-pill bg-light text-dark">LOGISTICA</span>
-                    <h1 class="font-weight-bold mt-2">
-                      <small>$</small>59
-                    </h1>
-                  </div>
-                  <div class="card-body text-lg-start text-center pt-0">
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">2 team members</span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">20GB Cloud storage </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i class="fas fa-minus" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Integration help </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i class="fas fa-minus" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Sketch Files </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i class="fas fa-minus" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">API Access </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i class="fas fa-minus" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Complete documentation </span>
-                      </div>
-                    </div>
-                    <a href="javascript:;" class="btn btn-icon bg-gradient-dark d-lg-block mt-3 mb-0">
-                      Join
-                      <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mb-lg-0 mb-4">
-                <div class="card">
-                  <div class="card-header text-center pt-4 pb-3">
-                    <span class="badge rounded-pill bg-light text-dark">ENVIO SEGURO</span>
-                    <h1 class="font-weight-bold mt-2">
-                      <small>$</small>89
-                    </h1>
-                  </div>
-                  <div class="card-body text-lg-start text-center pt-0">
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">10 team members</span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">40GB Cloud storage </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Integration help </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Sketch Files </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i class="fas fa-minus" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">API Access </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i class="fas fa-minus" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Complete documentation </span>
-                      </div>
-                    </div>
-                    <a href="javascript:;" class="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
-                      Try Premium
-                      <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mb-lg-0 mb-4">
-                <div class="card">
-                  <div class="card-header text-center pt-4 pb-3">
-                    <span class="badge rounded-pill bg-light text-dark">ADUANAS</span>
-                    <h1 class="font-weight-bold mt-2">
-                      <small>$</small>99
-                    </h1>
-                  </div>
-                  <div class="card-body text-lg-start text-center pt-0">
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Unlimited team members</span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">100GB Cloud storage </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Integration help </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Sketch Files </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">API Access </span>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div class="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i class="fas fa-check opacity-10" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <span class="ps-3">Complete documentation </span>
-                      </div>
-                    </div>
-                    <a href="javascript:;" class="btn btn-icon bg-gradient-dark d-lg-block mt-3 mb-0">
-                      Join
-                      <i class="fas fa-arrow-right ms-1" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div>
+   
     <div class="container my-6">
       <div class="row">
         <div class="col-8 mx-auto text-center">
