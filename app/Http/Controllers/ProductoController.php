@@ -21,7 +21,7 @@ class ProductoController extends Controller
     }
     public function createAliexpress()
     {
-        return view('dashboard.productos.createAliexpress');
+        return view('dashboard.productos.createaliexpress');
     }
     public function detalleAliexpress($item,$precio)
     {
