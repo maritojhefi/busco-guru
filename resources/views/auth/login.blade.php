@@ -7,7 +7,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5 text-center mx-auto">
             <h1 class="text-white mb-2 mt-5">Bienvenido!</h1>
-            <p class="text-lead text-white">E-commerce de Tarija-Bolivia para el mundo!</p>
+            <p class="text-lead text-white">Autenticate para utilizar nuestros servicios!</p>
           </div>
         </div>
       </div>
@@ -20,7 +20,7 @@
               <h5>Inicia Sesion</h5>
             </div>
             <div class="row px-xl-5 px-sm-4 px-3">
-              <div class="col-3 ms-auto px-1">
+             <!-- <div class="col-3 ms-auto px-1">
                 <a class="btn btn-outline-light w-100" href="{{route('social_auth',['driver'=>'facebook'])}}">
                   <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1">
                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -46,7 +46,7 @@
                     </g>
                   </svg>
                 </a>
-              </div>
+              </div> -->
             </div>
             <div class="card-body">
               <form method="POST" action="{{ route('login') }}" class="text-start">
